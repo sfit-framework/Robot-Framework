@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3rc3 (Python 3.10.12 on linux)" generated="2025-06-24T10:52:53.712585" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Amazon" source="/home/ashwanikk/Desktop/amazon_robot_automation/tests/test_amazon.robot">
+<test id="s1-t1" name="Login to Extreme" line="19">
+<kw name="Login to Extreme" owner="LoginExtreme">
+<kw name="Open Extreme Homepage" owner="Login_ExtremeKeywords">
+<msg time="2025-06-24T10:52:53.841470" level="INFO">Opening browser 'chrome' to base url 'https://g2r1.qa.xcloudiq.com'.</msg>
+<msg time="2025-06-24T10:54:40.647886" level="FAIL">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x6461342c471a &lt;unknown&gt;
+#1 0x646133d670a0 &lt;unknown&gt;
+#2 0x646133d5e177 &lt;unknown&gt;
+#3 0x646133d4f199 &lt;unknown&gt;
+#4 0x646133d50e8d &lt;unknown&gt;
+#5 0x646133d4f52e &lt;unknown&gt;
+#6 0x646133d4eece &lt;unknown&gt;
+#7 0x646133d4eba2 &lt;unknown&gt;
+#8 0x646133d4c9ef &lt;unknown&gt;
+#9 0x646133d4d1aa &lt;unknown&gt;
+#10 0x646133d6a5d9 &lt;unknown&gt;
+#11 0x646133e04eb5 &lt;unknown&gt;
+#12 0x646133dde3a2 &lt;unknown&gt;
+#13 0x646133e042a0 &lt;unknown&gt;
+#14 0x646133dde173 &lt;unknown&gt;
+#15 0x646133daad4b &lt;unknown&gt;
+#16 0x646133dab9b1 &lt;unknown&gt;
+#17 0x6461342898cb &lt;unknown&gt;
+#18 0x64613428d7ca &lt;unknown&gt;
+#19 0x646134271622 &lt;unknown&gt;
+#20 0x64613428e354 &lt;unknown&gt;
+#21 0x64613425645f &lt;unknown&gt;
+#22 0x6461342b24f8 &lt;unknown&gt;
+#23 0x6461342b26d6 &lt;unknown&gt;
+#24 0x6461342c3586 &lt;unknown&gt;
+#25 0x75505e494ac3 &lt;unknown&gt;
+</msg>
+<status status="FAIL" start="2025-06-24T10:52:53.823480" elapsed="106.825627">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x6461342c471a &lt;unknown&gt;
+#1 0x646133d670a0 &lt;unknown&gt;
+#2 0x646133d5e177 &lt;unknown&gt;
+#3 0x646133d4f199 &lt;unknown&gt;
+#4 0x646133d50e8d &lt;unknown&gt;
+#5 0x646133d4f52e &lt;unknown&gt;
+#6 0x646133d4eece &lt;unknown&gt;
+#7 0x646133d4eba2 &lt;unknown&gt;
+#8 0x646133d4c9ef &lt;unknown&gt;
+#9 0x646133d4d1aa &lt;unknown&gt;
+#10 0x646133d6a5d9 &lt;unknown&gt;
+#11 0x646133e04eb5 &lt;unknown&gt;
+#12 0x646133dde3a2 &lt;unknown&gt;
+#13 0x646133e042a0 &lt;unknown&gt;
+#14 0x646133dde173 &lt;unknown&gt;
+#15 0x646133daad4b &lt;unknown&gt;
+#16 0x646133dab9b1 &lt;unknown&gt;
+#17 0x6461342898cb &lt;unknown&gt;
+#18 0x64613428d7ca &lt;unknown&gt;
+#19 0x646134271622 &lt;unknown&gt;
+#20 0x64613428e354 &lt;unknown&gt;
+#21 0x64613425645f &lt;unknown&gt;
+#22 0x6461342b24f8 &lt;unknown&gt;
+#23 0x6461342b26d6 &lt;unknown&gt;
+#24 0x6461342c3586 &lt;unknown&gt;
+#25 0x75505e494ac3 &lt;unknown&gt;
+</status>
+</kw>
+<kw name="Enter Email" owner="Login_ExtremeKeywords">
+<arg>ahqatest+2022-wireless8A@gmail.com</arg>
+<status status="NOT RUN" start="2025-06-24T10:54:40.649276" elapsed="0.000025"/>
+</kw>
+<kw name="Enter Password And Login" owner="Login_ExtremeKeywords">
+<arg>Aerohive123</arg>
+<status status="NOT RUN" start="2025-06-24T10:54:40.649364" elapsed="0.000013"/>
+</kw>
+<kw name="Click Sign In" owner="Login_ExtremeKeywords">
+<status status="NOT RUN" start="2025-06-24T10:54:40.649427" elapsed="0.000012"/>
+</kw>
+<kw name="Click Log Out" owner="Login_ExtremeKeywords">
+<status status="NOT RUN" start="2025-06-24T10:54:40.649482" elapsed="0.000012"/>
+</kw>
+<status status="FAIL" start="2025-06-24T10:52:53.822933" elapsed="106.826653">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x6461342c471a &lt;unknown&gt;
+#1 0x646133d670a0 &lt;unknown&gt;
+#2 0x646133d5e177 &lt;unknown&gt;
+#3 0x646133d4f199 &lt;unknown&gt;
+#4 0x646133d50e8d &lt;unknown&gt;
+#5 0x646133d4f52e &lt;unknown&gt;
+#6 0x646133d4eece &lt;unknown&gt;
+#7 0x646133d4eba2 &lt;unknown&gt;
+#8 0x646133d4c9ef &lt;unknown&gt;
+#9 0x646133d4d1aa &lt;unknown&gt;
+#10 0x646133d6a5d9 &lt;unknown&gt;
+#11 0x646133e04eb5 &lt;unknown&gt;
+#12 0x646133dde3a2 &lt;unknown&gt;
+#13 0x646133e042a0 &lt;unknown&gt;
+#14 0x646133dde173 &lt;unknown&gt;
+#15 0x646133daad4b &lt;unknown&gt;
+#16 0x646133dab9b1 &lt;unknown&gt;
+#17 0x6461342898cb &lt;unknown&gt;
+#18 0x64613428d7ca &lt;unknown&gt;
+#19 0x646134271622 &lt;unknown&gt;
+#20 0x64613428e354 &lt;unknown&gt;
+#21 0x64613425645f &lt;unknown&gt;
+#22 0x6461342b24f8 &lt;unknown&gt;
+#23 0x6461342b26d6 &lt;unknown&gt;
+#24 0x6461342c3586 &lt;unknown&gt;
+#25 0x75505e494ac3 &lt;unknown&gt;
+</status>
+</kw>
+<status status="FAIL" start="2025-06-24T10:52:53.822033" elapsed="106.827738">WebDriverException: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=136.0.7103.92)
+Stacktrace:
+#0 0x6461342c471a &lt;unknown&gt;
+#1 0x646133d670a0 &lt;unknown&gt;
+#2 0x646133d5e177 &lt;unknown&gt;
+#3 0x646133d4f199 &lt;unknown&gt;
+#4 0x646133d50e8d &lt;unknown&gt;
+#5 0x646133d4f52e &lt;unknown&gt;
+#6 0x646133d4eece &lt;unknown&gt;
+#7 0x646133d4eba2 &lt;unknown&gt;
+#8 0x646133d4c9ef &lt;unknown&gt;
+#9 0x646133d4d1aa &lt;unknown&gt;
+#10 0x646133d6a5d9 &lt;unknown&gt;
+#11 0x646133e04eb5 &lt;unknown&gt;
+#12 0x646133dde3a2 &lt;unknown&gt;
+#13 0x646133e042a0 &lt;unknown&gt;
+#14 0x646133dde173 &lt;unknown&gt;
+#15 0x646133daad4b &lt;unknown&gt;
+#16 0x646133dab9b1 &lt;unknown&gt;
+#17 0x6461342898cb &lt;unknown&gt;
+#18 0x64613428d7ca &lt;unknown&gt;
+#19 0x646134271622 &lt;unknown&gt;
+#20 0x64613428e354 &lt;unknown&gt;
+#21 0x64613425645f &lt;unknown&gt;
+#22 0x6461342b24f8 &lt;unknown&gt;
+#23 0x6461342b26d6 &lt;unknown&gt;
+#24 0x6461342c3586 &lt;unknown&gt;
+#25 0x75505e494ac3 &lt;unknown&gt;
+</status>
+</test>
+<status status="FAIL" start="2025-06-24T10:52:53.713408" elapsed="106.936736"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Amazon" id="s1" pass="0" fail="1" skip="0">Test Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

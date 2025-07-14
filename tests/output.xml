@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3rc3 (Python 3.10.12 on linux)" generated="2025-07-14T14:02:40.309869" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Amazon" source="/home/ashwanikk/Desktop/amazon_robot_automation/tests/test_amazon.robot">
+<test id="s1-t1" name="Login to Extreme" line="19">
+<kw name="Login to Extreme" owner="LoginExtreme">
+<kw name="Open Extreme Homepage" owner="Login_ExtremeKeywords">
+<msg time="2025-07-14T14:02:40.444466" level="INFO">Opening browser 'chrome' to base url 'https://g2r1.qa.xcloudiq.com'.</msg>
+<status status="PASS" start="2025-07-14T14:02:40.424689" elapsed="27.743598"/>
+</kw>
+<kw name="Enter Email" owner="Login_ExtremeKeywords">
+<msg time="2025-07-14T14:03:13.186706" level="FAIL">Element '//input[@data-automation-tag="automation-login-page-username-field"]' not visible after 5 seconds.</msg>
+<arg>ahqatest+2022-wireless8A@gmail.com</arg>
+<status status="FAIL" start="2025-07-14T14:03:08.168603" elapsed="5.025617">Element '//input[@data-automation-tag="automation-login-page-username-field"]' not visible after 5 seconds.</status>
+</kw>
+<kw name="Enter Password And Login" owner="Login_ExtremeKeywords">
+<arg>Aerohive123</arg>
+<status status="NOT RUN" start="2025-07-14T14:03:13.194628" elapsed="0.000077"/>
+</kw>
+<kw name="Click Sign In" owner="Login_ExtremeKeywords">
+<status status="NOT RUN" start="2025-07-14T14:03:13.194913" elapsed="0.000043"/>
+</kw>
+<kw name="Click Log Out" owner="Login_ExtremeKeywords">
+<status status="NOT RUN" start="2025-07-14T14:03:13.195109" elapsed="0.000039"/>
+</kw>
+<status status="FAIL" start="2025-07-14T14:02:40.424318" elapsed="32.771060">Element '//input[@data-automation-tag="automation-login-page-username-field"]' not visible after 5 seconds.</status>
+</kw>
+<status status="FAIL" start="2025-07-14T14:02:40.423518" elapsed="32.772320">Element '//input[@data-automation-tag="automation-login-page-username-field"]' not visible after 5 seconds.</status>
+</test>
+<status status="FAIL" start="2025-07-14T14:02:40.310719" elapsed="32.886461"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test Amazon" id="s1" pass="0" fail="1" skip="0">Test Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
